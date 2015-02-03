@@ -5,9 +5,9 @@ function google($searchQuery1,$searchQuery2)
 {
    
     $searchQuery1=urlencode($searchQuery1);
-    $searchQuery2=urlencode($searchQuery2);
     
-    $searchUrl='https://www.google.co.in/?gws_rd=cr&ei=MT9aU6zHEsm3rgfF_YDgCw#q='.$searchQuery1.'+'.$searchQuery2;     
+    
+    $searchUrl='https://www.google.co.in/?gws_rd=cr&ei=MT9aU6zHEsm3rgfF_YDgCw#q='.$searchQuery1;     
     echo $searchUrl;
     
     $html=file_get_html($searchUrl);
