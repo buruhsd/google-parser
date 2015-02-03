@@ -1,7 +1,7 @@
 <?php
 echo '
 <html>
-Google Data Parser Project <br/>
+google data parser sederhana<br/>
 ----------------------------------------------
 <form action="searchResults.php" name="searchForm" method="GET">
 
